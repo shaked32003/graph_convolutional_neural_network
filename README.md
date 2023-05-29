@@ -19,31 +19,6 @@ Before running the code, make sure you have the following dependencies installed
 - numpy
 - matplotlib
 
-## Usage
-
-1. Set the `path` variable to the directory path where the dataset is located.
-
-```python
-path = "drive/MyDrive"
-```
-
-2. Load the Cora dataset using the `Planetoid` class from `torch-geometric`. The dataset will be stored in the `dataset` variable.
-
-```python
-dataset = Planetoid(path, "Cora")
-```
-
-3. Retrieve the first graph from the dataset and store it in the `data` variable.
-
-```python
-data = dataset[0]
-```
-
-4. Print information about the Cora dataset.
-
-```python
-print('Cora:', data)
-```
 
 ## Functions
 
